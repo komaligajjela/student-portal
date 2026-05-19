@@ -1,0 +1,131 @@
+body{
+    background: linear-gradient(135deg,#0f172a,#1e293b,#334155);
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+
+/* Navbar */
+
+.custom-navbar{
+    background: rgba(15,23,42,0.9);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.4);
+}
+
+.nav-link{
+    color: white !important;
+    margin-right: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: #38bdf8 !important;
+    transform: translateY(-2px);
+}
+
+
+/* Glass Card */
+
+.glass-card{
+    background: rgba(255,255,255,0.08);
+    border-radius: 20px;
+    padding: 30px;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0px 8px 32px rgba(0,0,0,0.3);
+}
+
+
+/* Heading */
+
+.main-heading{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* Table */
+
+.table{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.table thead{
+    background: #0f172a;
+    color: white;
+}
+
+.table tbody tr{
+    transition: 0.3s;
+}
+
+.table tbody tr:hover{
+    background: rgba(255,255,255,0.08);
+    transform: scale(1.01);
+}
+
+
+/* Buttons */
+
+.btn-custom{
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-custom:hover{
+    transform: translateY(-3px);
+}
+
+
+/* Profile Images */
+
+.profile-img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+
+/* Form */
+
+.form-control{
+    border-radius: 12px;
+    padding: 12px;
+}
+
+
+/* Dashboard Cards */
+
+.dashboard-card{
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    transition: 0.3s;
+}
+
+.dashboard-card:hover{
+    transform: translateY(-5px);
+}
+
+.bg1{
+    background: linear-gradient(135deg,#2563eb,#1d4ed8);
+}
+
+.bg2{
+    background: linear-gradient(135deg,#16a34a,#15803d);
+}
+
+.bg3{
+    background: linear-gradient(135deg,#dc2626,#b91c1c);
+}

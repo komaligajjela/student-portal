@@ -1,0 +1,69 @@
+{% extends 'students/base.html' %}
+
+{% block content %}
+
+<h1 class="main-heading">
+
+    Student Dashboard
+
+</h1>
+
+<div class="row g-4">
+
+    <div class="col-md-4">
+
+        <div class="dashboard-card bg1">
+
+            <h2>{{ total_students }}</h2>
+
+            <h5>Total Students</h5>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-4">
+
+        <div class="dashboard-card bg2">
+
+            <h2>Courses</h2>
+
+            <h5>Manage Courses</h5>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-4">
+
+        <div class="dashboard-card bg3">
+
+            <h2>Admin</h2>
+
+            <h5>Portal Access</h5>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="text-center mt-5">
+
+    <a href="{% url 'add_student' %}"
+       class="btn btn-success btn-lg btn-custom">
+
+       Add Student
+
+    </a>
+
+    <a href="{% url 'student_list' %}"
+       class="btn btn-primary btn-lg btn-custom">
+
+       View Students
+
+    </a>
+
+</div>
+
+{% endblock %}
